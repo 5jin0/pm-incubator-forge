@@ -15,6 +15,8 @@ export const CalculationExample = () => {
     return (
         <div>   
             <h3>연산결과</h3>
+            {/*잘 보면 {add}같은 것이 보임 */}
+            {/*위의 const add = 3 + 3; 이 부분이 실행된 결과가 들어감 */    }
             <p>3 + 3 = {add}</p>
             <p>10 - 5 = {subtract}</p>
             <p>4 * 2 = {multiply}</p>

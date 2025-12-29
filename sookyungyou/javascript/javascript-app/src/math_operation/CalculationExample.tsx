@@ -1,10 +1,10 @@
 
-//Javascript에서 함수형 객체 만들 때 사용하는데 아래 패턴으로 기억하면 됨
+// Javascript에서 함수형 객체 만들 때 사용하는데 아래 패턴으로 기억하면 됨
 // 1. export const <- 고정
 // 2. 함수 이름
 // 3. = () => {} 고정
 // 4. 구동시킬 코드 내부에 작성
-// 5. return 내분에는 react
+// 5. return 내부에는 react
 
 export const CalculationExample = () => {
     const add = 3 + 3;

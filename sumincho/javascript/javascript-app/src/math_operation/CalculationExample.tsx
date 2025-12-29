@@ -14,11 +14,13 @@ export const CalculationExample = () => {
     return (
         <div>
             <h3>연산 결과</h3>
+            {/* 잘 보면 {add} 같은 것이 보임. */}
+            {/* 위의 const add 값이 {add} 로 전달되서 보이는 것임 */}
             <p>3 + 3 = {add}</p>
             <p>10 - 5 = {subtract}</p>
             <p>20 / 4; = {divide}</p>
             <p>4 * 2 = {multiply}</p>
-            <p>10 % 3 = {remaider}</p>
+            <p>10 % 3 = {remainder}</p>
         </div>
     )
 }
