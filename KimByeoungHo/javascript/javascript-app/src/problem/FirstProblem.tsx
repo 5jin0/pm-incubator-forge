@@ -4,13 +4,13 @@ export  const FirstProblem = () => {
   let x = 1;
   let result;
 
-  if (x < z) {
+  if (z > x) {
     result = "Z가 더 크지롱~";
   } else {
     result = "아니지롱 X가 더 크지롱~";
   } 
 
-  let ternaryResult = z < x ? "Z가 더 크지롱~" : "아니지롱 X가 더 크지롱~";
+  let ternaryResult = z > x ? "Z가 더 크지롱~" : "아니지롱 X가 더 크지롱~";
 
   return (
     <div>
