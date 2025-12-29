@@ -1,3 +1,4 @@
+import './style/main.css'
 import './App.css'
 
 //실행방법: npm run dev
@@ -40,7 +41,74 @@ function App() {
           <li>리스트3</li>
          </ol>
          
-        
+        {/* tailwindcss 같은 편한 것 있음 */}
+        {/* html / css를 알고 쓰는 것과 차이가 있음 */}
+        <div className="box">
+          <h2>CSS 속성 적용</h2>
+          <p>CSS는  HTML요소를 스타일링 하기 위한 목적으로 사용</p>
+          <a href='https://www.w3schools.com/'target="_blank">
+            HTML / CSS 학습 사이트 
+          </a>
+        </div>
+
+        <div className="box">
+          <h2>표 만들기</h2>
+          <p>표는 데이터를 행과 열로 표현</p>
+
+          <table>
+            {/* 표 만들 때 초기 테이블 틀 */}
+            
+            <thead>
+              {/* 표 내에서 제목에 해당하는 파트 구성 */}
+              
+              <tr>
+              {/* 행 */}
+                
+                <th>첫 번째 제목 열</th>
+                <th>두 번째 제목 열</th>
+                {/* 제목 열*/}
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>데이터 1</td>
+                <td>데이터 2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="box">
+          <h2>Form (형식)</h2>
+          <p>Form 형식은 데이터를 입력할 수 있는 형태</p>
+
+          <form>
+
+            <label htmlFor='name'>이름 </label>
+            {/* 레이블-이름필드*/}
+
+            <input type='text' id='name' name='name'/>
+            {/* 이름 필드를 식별할 수 있는 id값(name) 입력 타입이 문자 */}
+
+            <br/>
+            {/* 개행 (엔터) */}
+
+            <label htmlFor='email'>이메일 </label>
+            {/* 레이블-이메일 필드 */}
+
+            <input type='email' id='email' name='email'/>
+            {/* 입력타입이 이메일 타입 */}
+
+            <br/>
+            {/* 개행 (엔터) */}
+
+            <button type="submit" className='custom-button'>
+              제출
+            {/* 버튼생성 타입이 submit이기 때문에 클릭하면 액션 발생  */}
+            </button>
+          </form>
+        </div>
       </div>
     </>
   )
