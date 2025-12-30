@@ -9,18 +9,19 @@ export const FirstProblem = () => {
     else{
         result="Hi"
     }
-
+     let ternaryResult = x <z ? "Hello" :"Hi"
      return(
         <div>
-            <h3>Problem</h3>
+            <h3>Javascript 첫 번째 퀴즈</h3>
             <pre>{
                 // `는 ~키 아래 있는 기호
                 `
+                z가 x 보다 크면 Hello, z가 x 보다 작거나 같으면 Hi를 출력해주세요.
             x = ${x}
             z = ${z}                          
-            result = ${result}               
-                `
-            
+            result = ${result}
+            ternaryResult = ${ternaryResult}               
+                `    
             }</pre>
         </div>
     )

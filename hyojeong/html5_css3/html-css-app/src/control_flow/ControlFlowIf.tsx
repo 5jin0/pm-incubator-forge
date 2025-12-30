@@ -19,6 +19,7 @@ export const ControlFlowIf = () => {
 // x > 5 ? A : B
 // 조건이 ? >> 참인 경우 : >> 거짓인 경우
 
+
     let ternaryResult = x > 5 ? "x는 5보다 크다." : "x는 5보다 작거나 같다."
     // 아니라면은 : 으로 처리
 

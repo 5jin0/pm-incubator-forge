@@ -40,3 +40,4 @@ ternaryResult = ${ternaryResult}
         </div>
     )
 }
+

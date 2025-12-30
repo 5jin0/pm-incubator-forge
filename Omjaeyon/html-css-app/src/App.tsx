@@ -3,6 +3,11 @@ import { VariableAndDataTypes } from './data_type/VariableAndDataType'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { ControlFlowIf } from './control_flow/ControlFlowIf'
+
+import { FirstProblem } from './problem/FirstProblem'
+import { ControlFlowSwithch } from './control_flow/ControlFlowSwitch copy'
+import { ControlFlowFor } from './control_flow/ControlFlowFor'  
+import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 function App() {
 
   return (
@@ -14,6 +19,11 @@ function App() {
        <VariableAndDataTypes />
        <LogicalOperationExample />
        <ControlFlowIf />
+       <FirstProblem />
+       <ControlFlowSwithch />
+       <ControlFlowFor />
+       <ControlFlowForSummation />
+
       </div>
       
     </>

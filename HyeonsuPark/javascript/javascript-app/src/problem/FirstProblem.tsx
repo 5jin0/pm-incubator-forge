@@ -1,3 +1,6 @@
+// z가 x보다 크면 Hello
+// z가 x보다 작거나 같으면 Hi를 출력해주세요
+// x 값과 z 값은 여러분들 편의대로 아무 숫자나 사용하면 됩니다.
 export const FirstProblem = () => {
     let x = 10;
     let z = 11;
@@ -15,14 +18,16 @@ export const FirstProblem = () => {
 
     return (
         <div>
-            <h3>javascript 제어문(if)</h3>
+            <h3>1차 과제 : javascript 제어문(if)</h3>
 
             <pre>{
                 `
-x = ${x}                          // 10
-z = ${z}                          // 11
-result = ${result}                // Hello
-ternaryResult = ${ternaryResult}  
+z가 x 보다 크면 Hello,
+z가 x 보다 작거나 같으면 Hi를 출력해주세요.
+x = ${x}
+z = ${z}
+result = ${result}
+ternaryResult = ${ternaryResult} 
                 `
             }</pre>
         </div>

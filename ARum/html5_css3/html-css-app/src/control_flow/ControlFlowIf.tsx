@@ -12,7 +12,7 @@ export const ControlFlowIf = () => {
         result = "x는 5 보다 작거나 같다."
     }
 
-    // if ans wkrtjd dyfud
+    // if 문 잘성 요령
     // 1. 일단 if () {} 를 적어둡니다.
     // 2. 소괄호 내부에 조건을 작성합니다.
     // 3. 조건이 만족 되었을 경우 어떤 작업을 할 것인지 중괄호 내부에 내용을 작성

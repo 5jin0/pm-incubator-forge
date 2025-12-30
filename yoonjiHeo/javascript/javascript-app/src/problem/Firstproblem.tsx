@@ -1,7 +1,7 @@
 //z가 x 보다 크면 Hello,
 //z가 x 보다 작거나 같으면 Hi를 출력해주세요. 
 //z값과 x값은 여러분 편의대로 아무 숫자나 사용해주시면 됩니다.
-export const ControlFlowIf = () => {
+export const Firstproblem = () => {
   let x = 10;
   let z = 2
   let result;
@@ -32,7 +32,7 @@ export const ControlFlowIf = () => {
 
     return (
         <div>
-            <h3>javascript 제어문 (if) </h3>
+            <h3>javascript 첫 번째 퀴즈 (if) </h3>
 
             <pre>{
                 ` 

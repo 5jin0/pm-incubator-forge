@@ -1,4 +1,4 @@
-export const ControlFlowIf = () => {
+export const FirstProblem = () => {
     let z = 10;
     let x = 10;
     let result;

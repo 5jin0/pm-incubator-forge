@@ -1,5 +1,6 @@
 export const FirstProblem = () => {
     //z가 x 보다 크면 Hello, z가 x 보다 작거나 같으면 Hi를 출력해주세요. 
+    // 숫자는 아무거나 상관없음 
     let z = 10;
     let x = 5;
     let result;
@@ -7,14 +8,14 @@ export const FirstProblem = () => {
     
     if (z > x) {
        
-        result = "z는 x 보다 크면 Hello"
+        result = "Hello"
     } else {
   
-        result = "z는 x 보다 작거나 같으면 Hi."
+        result = "Hi"
     }
     
  
-   let ternaryResult = z > x ? " Hello " : " Hi."
+   let ternaryResult = z > x ? " Hello " : " Hi "
 
 
 return (
