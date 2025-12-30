@@ -1,7 +1,12 @@
 import './App.css'
+import { ControlFlowFor } from './control_flow/ControlFlowFor'
+import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
+import { ControlFlowIf } from './control_flow/ControlFlowIf'
+import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { VariableAndDataType } from './data_type/VariableAndDataType'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+import { FirstProblem } from './problem/FirstProblem'
 
 function App() {
  
@@ -16,6 +21,11 @@ function App() {
         <CalculationExample/>
         <VariableAndDataType/>
         <LogicalOperationExample/>
+        <ControlFlowIf/>
+        <FirstProblem/>
+        <ControlFlowSwitch/>
+        <ControlFlowFor/>
+        <ControlFlowForSummation/>
       </div>
     </>
   )

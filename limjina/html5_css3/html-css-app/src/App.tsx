@@ -1,8 +1,12 @@
-import './style/main.css'
+import './App.css'
+
 import { CalculationExample } from './math_operation/CalculationExample' 
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
 import { LogicalOperationExample } from './Logical_operation/LogicalOperationExample'
-
+import { ControlFlowIf } from './control_flow/ControlFlowf'
+import { ControlFlowSwitch } from './control_flow/ControlFlowfSwitch'
+import { ControlFlowFor } from './control_flow/ControlFlowFor'
+import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 // 실행 방법: npm run dev
 // 실행 이후 나타나는 Local: http://localhost:숫자/ 가 있음
 // http://localhost:숫자/ 를 웹 브라우저에 입력해야 페이지가 보입니다.
@@ -19,6 +23,10 @@ function App() {
       <CalculationExample/>
       <VariableAndDataTypes/>
       <LogicalOperationExample/>
+      <ControlFlowIf/>
+      <ControlFlowSwitch/>
+      <ControlFlowFor/>
+      <ControlFlowForSummation/>
       </div>
     </>
   )

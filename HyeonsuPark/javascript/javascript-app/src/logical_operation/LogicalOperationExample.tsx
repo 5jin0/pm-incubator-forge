@@ -1,11 +1,28 @@
 export const LogicalOperationExample = () => {
+    // ===의 경우 완벽하게 일치하는지 여부를
+    // 타입까지 일치하는지 확인하는 것입니다
+    // 현재 숫자 10과 문자열 10을 비교하기 때문에 false
     const strictEquality = 10 === ("10"as any)
+    // 숫자 10과 문자열 10을 비교하는데 type일치는 보지 않습니다.
+    // 둘 다 같은 10이기 때문에 true로 처리합니다.
     const roughEquality = 10 == ("10" as any)
+    // 논리 연산 AND (&&)
+    // AND 특성으로 모든 것이 참인 경우에만 참
     const logicalAnd = true && false
-    // 엔터 키 위에 \\|| 키를 Shift 누르고 입력하면 파이프(||)가 만들어짐
+    // 엔터 키 위에 \\|| 키를 Shift 누르고 입력하면 파이프(||)가 만들어집니다.
+    // 논리 연산 OR (||)
+    // OR 특성으로 하나라도 참이여도 참
     const logicalOr = true || false
-    const bitwiseAnd = 5 & 4
-    const bitwiseOr = 5 | 2
+    // 비트 연산 AND 
+    // 2`2, 2`1, 2`0
+    //  1    0    1   (5)
+    //  1    0    0   (4)
+    const bitwiseAnd = 5 & 4   // 4
+    // 비트 연산 OR
+    // 2`2, 2`1, 2`0
+    //  1    0    1   (5)
+    //  0    1    0   (2)
+    const bitwiseOr = 5 | 2    // 7
 
     return (
         <div>

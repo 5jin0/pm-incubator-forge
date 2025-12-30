@@ -5,7 +5,7 @@
 // 3. = () => {} 고정
 // 4. 구동시킬 코드 내부에 작성
 // 5. return 내부에는 react
-export const CalcuationExample = () => {
+export const CalculationExample = () => {
     const add = 3 + 3;
     const subtract = 10 - 5;
     const multiply = 4 * 2;

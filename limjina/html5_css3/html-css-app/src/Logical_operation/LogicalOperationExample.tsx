@@ -4,7 +4,7 @@ export const LogicalOperationExample = () => {
     const loficalAnd = true && false
     // 엔터키에 보면 원 표시가 보일텐데 그거 Shift 누르고 입력하면 파이프가 만들어집니다
     const logicalOr = true || false
-    const bitwiseAnd = 5 & 4
+    const bitwiseAnd = 5 & 4  
     const bitwiseOr = 5 | 2
 
     return (

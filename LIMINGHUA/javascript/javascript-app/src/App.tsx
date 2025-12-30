@@ -1,33 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { ControlFlowFor } from './control_flow/ControlFlowFor'
+import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
+import { ControlFlowIf } from './control_flow/ControlFlowIf'
+import { ControlFlowSwitc } from './control_flow/ControlFlowSwitch'
+import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+import { CalculationExample } from './math_operation/CalculationExample'
+import { FirstProblem } from './problem/FirstProblem'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        {/* 여러분들만의 커스텀 태그 생성 */}
+        {/* 이 커스텀 태그는 단순히 사칙연산 + 나머지(MOD) 연산 */}
+        {/* 이와 같은 형태로 직접 커스텀 태그를 만들면 
+            지저분해지는 상황을 방지할 수 있습니다. */}
+        {/* 관심사의 분리를 달성할 수 있음 */}
+        <CalculationExample/>
+        <VariableAndDataTypes/>
+        <LogicalOperationExample/>
+        <ControlFlowIf/>
+        <FirstProblem/>
+        <ControlFlowSwitc/>
+        <ControlFlowFor/>
+        <ControlFlowForSummation/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

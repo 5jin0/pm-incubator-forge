@@ -1,7 +1,12 @@
 import './App.css'
+import { FirstProblem } from './problem/FirstProblem'
+import { ControlFlowIf } from './control_flow/ControlFlowIf'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample.tsx'
 import { CalculationExample } from './math_operation/CalculationExample'
+import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch.tsx'
+import { ControlFlowFor } from './control_flow/ControlFlowFor.tsx'
+import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation.tsx'
 
 function App() {
 
@@ -16,6 +21,11 @@ function App() {
         <CalculationExample/>
         <VariableAndDataTypes/>
         <LogicalOperationExample/>
+        <ControlFlowIf/>
+        <FirstProblem/>
+        <ControlFlowSwitch/>
+        <ControlFlowFor/>
+        <ControlFlowForSummation/>
       </div>
     </>
   )

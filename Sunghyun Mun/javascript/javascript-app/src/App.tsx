@@ -2,6 +2,14 @@ import './App.css'
 import { VariableAndDataTypes } from './data_type/VariableAndDataType'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+import { ControlFlowIf } from './control_flow/ControlFlowIf'
+
+// 실행 방법: npm run dev
+// 실행 이후 나타는 Local: https://localhost:숫자/가 있음
+// http://localhost:숫자/ 를 웹 브라우저에 입력
+
+// 그리고 현재 구성 특성 상 웹 브라우저를 켜놓고
+// 코드만 바꾸면 알아서 페이지가 코드에 따라 변경됨
 
 function App() {
 
@@ -16,6 +24,7 @@ function App() {
         <CalculationExample/>
         <VariableAndDataTypes/>
         <LogicalOperationExample/>
+        <ControlFlowIf/>           
       </div>
     </>
   )
